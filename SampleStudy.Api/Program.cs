@@ -1,7 +1,14 @@
+using SampleStudy.Application;
+using SampleStudy.Domain.Interfaces;
+using SampleStudy.Infrastructure;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
+builder.Services.AddScoped<IDataContextHelper, DataContextHelper>();
+builder.Services.AddScoped<IPersonService, PersonService>();
+builder.Services.AddScoped<IDepartmentService, DepartmentService>();
+builder.Services.AddScoped<ICommunicationService, CommunicationService>();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

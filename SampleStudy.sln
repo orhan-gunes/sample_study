@@ -7,11 +7,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleStudy.Api", "SampleSt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleStudy.Application", "SampleStudy.Application\SampleStudy.Application.csproj", "{268EA24F-417E-4275-9C90-FD32B8338811}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleStudy.Infrastructure", "SampleStudy.InfraStructure\SampleStudy.Infrastructure.csproj", "{433964CB-6598-40D2-9884-70910CAC4061}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleStudy.Infrastructure", "SampleStudy.InfraStructure\SampleStudy.Infrastructure.csproj", "{433964CB-6598-40D2-9884-70910CAC4061}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleStudy.Domain", "SampleStudy.Domain\SampleStudy.Domain.csproj", "{1161382C-4F8B-4A50-B98D-CD8BC306507B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleStudy.Tests", "SampleStudy.Tests\SampleStudy.Tests.csproj", "{D410C9B1-399F-4C4B-9D45-9B35694F1755}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleStudy.Tests", "SampleStudy.Tests\SampleStudy.Tests.csproj", "{D410C9B1-399F-4C4B-9D45-9B35694F1755}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{14A99469-65B0-4EE9-81A0-DEAFB1BDE98B}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

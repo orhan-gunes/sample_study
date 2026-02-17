@@ -10,3 +10,7 @@
 /SampleStudy.Domain/obj
 /SampleStudy.InfraStructure/obj
 /SampleStudy.Tests/obj
+/.vs/ProjectEvaluation
+/SampleStudy.Application/bin/Debug/net8.0
+/SampleStudy.Domain/bin/Debug/net8.0
+/SampleStudy.InfraStructure/bin/Debug/net8.0
