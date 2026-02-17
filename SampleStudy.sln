@@ -16,6 +16,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{14A99469-65B0-4EE9-81A0-DEAFB1BDE98B}"
 	ProjectSection(SolutionItems) = preProject
 		Dockerfile = Dockerfile
+		sqlqueries.sql = sqlqueries.sql
 	EndProjectSection
 EndProject
 Global
